@@ -7,7 +7,7 @@ public class Post {
     private final String text;
     private final String type;
     private final String user;
-    private final int upvotes;
+    private final Integer upvotes;
 
     public Post(@JsonProperty("id") String id,
                 @JsonProperty("text") String text,
